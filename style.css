@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+#cntr {
+    width: 80%;
+    border: 1PX solid gainsboro;    
+}
+#tableHead{    
+    display: flex;
+    height: 60px;
+    align-items: center;
+    font-weight: 900;
+    font-size: 1rem;
+    background-color: #212529;
+    color: white;
+
+
+}
+#row1,#row3,#row5,#row7,#row9
+{ 
+    background-color: #e9ecef;
+    border-bottom: 0.5px solid #d6dde3; 
+}
+.rows {
+    height:50px;
+    display: flex;
+    align-items: center; 
+    width: 100%;
+    border-bottom: 1px solid gainsboro;
+}
+span {
+    display: inline-block;
+    width:100%;
+    padding-left:5px ;
+    padding-right:5px ;
+}
